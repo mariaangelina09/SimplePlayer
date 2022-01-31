@@ -2,7 +2,7 @@
 //  SimplePlayerTests.swift
 //  SimplePlayerTests
 //
-//  Created by linachan on 29/01/22.
+//  Created by Maria Angelina on 29/01/22.
 //
 
 import XCTest

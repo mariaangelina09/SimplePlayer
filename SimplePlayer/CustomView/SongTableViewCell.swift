@@ -8,13 +8,14 @@
 import UIKit
 
 class SongTableViewCell: UITableViewCell, NibLoadableView, ReusableView {
-
+    // MARK: - @IBOutlet(s)
     @IBOutlet weak var artworkImageView: UIImageView!
     @IBOutlet weak var trackNameLabel: UILabel!
     @IBOutlet weak var artistNameLabel: UILabel!
     @IBOutlet weak var albumLabel: UILabel!
     @IBOutlet weak var equalizerImageView: UIImageView!
     
+    // MARK: - Override Function(s)
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -25,6 +26,7 @@ class SongTableViewCell: UITableViewCell, NibLoadableView, ReusableView {
         super.setSelected(selected, animated: animated)
     }
     
+    // MARK: - Function(s)
     private func setupUI() {
         selectionStyle = .none
         equalizerImageView.isHidden = true

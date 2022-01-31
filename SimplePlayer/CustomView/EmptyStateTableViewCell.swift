@@ -8,6 +8,7 @@
 import UIKit
 
 class EmptyStateTableViewCell: UITableViewCell, NibLoadableView, ReusableView {
+    // MARK: - Override Function(s)
     override func awakeFromNib() {
         super.awakeFromNib()
         
